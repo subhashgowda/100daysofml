@@ -99,6 +99,7 @@ Click here for [Code](https://github.com/subhashgowda/100daysofml/blob/master/Lo
 
 ![day 7](https://user-images.githubusercontent.com/17926361/51655923-ce7f2180-1fc4-11e9-92d3-50928e2a463c.jpg)
 
+
 Click here for [Code](https://github.com/subhashgowda/100daysofml/blob/master/K%20Nearest%20Neighbours/Knearestneighbors.ipynb) and [Dataset](https://github.com/subhashgowda/100daysofml/blob/master/K%20Nearest%20Neighbours/Social_Network_Ads.csv)
 
 --------
@@ -145,6 +146,23 @@ Click here for [code](https://github.com/subhashgowda/100daysofml/blob/master/Na
 ### K MEANS 
 
 ![day 43](https://user-images.githubusercontent.com/17926361/51657141-962e1200-1fc9-11e9-99d4-8c2b1c9c23e9.jpg)
+
+An unsupervised learning algorithm (meaning there are no target labels) that allows you to identify similar groups or clusters of data points within your data. 
+
+Algorithm
+1. We randomly initialize the K starting centroids. Each data point is assigned to its nearest centroid.
+2. The centroids are recomputed as the mean of the data points assigned to the respective cluster.
+3. Repeat steps 1 and 2 until we trigger our stopping criteria.
+
+optimizing for and the answer is usually Euclidean distance or squared Euclidean distance to be more precise. Data points are assigned to the cluster closest to them or in other words the cluster which minimizes this squared distance. We can write this more formally as:
+
+![](https://cdn-images-1.medium.com/max/1600/1*UVJKdowZ9CHxvrII1IYolw.png)
+
+Kmeans Visualize
+
+We have defined k = 2 so we are assigning data to one of two clusters at each iteration. Figure (a) corresponds to the randomly initializing the centroids. In (b) we assign the data points to their closest cluster and in Figure c we assign new centroids as the average of the data in each cluster. This continues until we reach our stopping criteria (minimize our cost function J or for a predefined number of iterations). Hopefully, the explanation above coupled with the visualization has given you a good understanding of what K means is doing. 
+
+![1_dpglfqy3obgpgubyqk9hiq](https://user-images.githubusercontent.com/17926361/52537070-55374b00-2d88-11e9-9416-e244d7f24faf.gif)
 
 Click here for [code](https://github.com/subhashgowda/100daysofml/blob/master/Kmeans/kmeans.py) and [Dataset](https://github.com/subhashgowda/100daysofml/blob/master/Kmeans/Mall_Customers.csv).
 
