@@ -74,6 +74,8 @@ Point that cuts through x axis is intercept
  ### MULTIPLE LINEAR REGRESSION
  
  ![day 3](https://user-images.githubusercontent.com/17926361/51655635-87dcf780-1fc3-11e9-9543-be2431c8e8c8.jpg)
+ 
+ For greater numbers of independent variables, visual understanding is more abstract. For p independent variables, the data points (x1, x2, x3 …, xp, y) exist in a p + 1 -dimensional space. What really matters is that the linear model (which is p -dimensional) can be represented by the p + 1 coefficients β0, β1, …, βp so that y is approximated by the equation y = β0 + β1*x1 +....
 
  Click here for [code](https://github.com/subhashgowda/100daysofml/blob/master/Multiple%20linear%20regression/Multiple%20linear%20regression.ipynb) and [dataset](https://github.com/subhashgowda/100daysofml/blob/master/Multiple%20linear%20regression/50_Startups.csv)
 
